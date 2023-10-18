@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"pinia-plugin-persistedstate": "^3.2.0",
+		"uni-app-fetch": "^0.0.3"
+	}
+}

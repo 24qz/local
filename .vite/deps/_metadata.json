@@ -1,0 +1,29 @@
+{
+  "hash": "3c0da14f",
+  "browserHash": "3840aa97",
+  "optimized": {
+    "pinia-plugin-persistedstate": {
+      "src": "../../node_modules/.pnpm/pinia-plugin-persistedstate@3.2.0_pinia@2.1.6/node_modules/pinia-plugin-persistedstate/dist/index.mjs",
+      "file": "pinia-plugin-persistedstate.js",
+      "fileHash": "a8308104",
+      "needsInterop": false
+    },
+    "uni-app-fetch": {
+      "src": "../../node_modules/.pnpm/uni-app-fetch@0.0.3/node_modules/uni-app-fetch/dist/index.js",
+      "file": "uni-app-fetch.js",
+      "fileHash": "d43e272f",
+      "needsInterop": true
+    },
+    "vue-demi": {
+      "src": "../../node_modules/vue-demi/lib/index.mjs",
+      "file": "vue-demi.js",
+      "fileHash": "da9f1835",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RSJERJUL": {
+      "file": "chunk-RSJERJUL.js"
+    }
+  }
+}

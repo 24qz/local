@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "神领物流"
+			}
+		}, {
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+
+			}
+		},
+		{
+			"path": "pages/message/Notice/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+
+			}
+		},
+		{
+			"path": "pages/task/index",
+			"style": {
+				"navigationBarTitleText": "任务"
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+
+	"subPackages": [{
+			"root": "subpkg_user",
+			"pages": [{
+					"path": "truck/index",
+					"style": {
+						"navigationBarTitleText": "车辆信息"
+					}
+				},
+				{
+					"path": "task/index",
+					"style": {
+						"navigationBarTitleText": "任务数据"
+					}
+				},
+				{
+					"path": "setting/index",
+					"style": {
+						"navigationBarTitleText": "系统设置"
+					}
+				}
+			]
+		},
+		{
+			"root": "subpkg_task",
+			"pages": [{
+					"path": "pickup/index",
+					"style": {
+						"navigationBarTitleText": "提货信息"
+					}
+				},
+				{
+					"path": "detail/index",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "delay/index",
+					"style": {
+						"navigationBarTitleText": "延迟提货"
+					}
+				}, {
+					"path": "except/index",
+					"style": {
+						"navigationBarTitleText": "上报异常"
+					}
+				}, {
+					"path": "record/index",
+					"style": {
+						"navigationBarTitleText": "回车登记"
+					}
+				}, {
+					"path": "delivery/index",
+					"style": {
+						"navigationBarTitleText": "交付信息"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffff",
+		"backgroundColor": "#F8F8F8"
+
+	},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"color": "#818181",
+		"selectedColor": "#EF4F3F",
+		"list": [{
+			"text": "任务",
+			"pagePath": "pages/task/index",
+			"iconPath": "static/tarbar/tabbar/task_normal.png",
+			"selectedIconPath": "static/tarbar/tabbar/task_selected.png"
+		}, {
+			"text": "消息",
+			"pagePath": "pages/message/index",
+			"iconPath": "static/tarbar/tabbar/message_normal.png",
+			"selectedIconPath": "static/tarbar/tabbar/message_selected.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/my/index",
+			"iconPath": "static/tarbar/tabbar/my_normal.png",
+			"selectedIconPath": "static/tarbar/tabbar/my_selected.png"
+		}]
+
+	},
+	"uniIdRouter": {}
+}
